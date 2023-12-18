@@ -14,7 +14,7 @@ public class Tp : MonoBehaviour
 
     IEnumerator Teleport()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         _player.transform.position = new Vector3(_transformTp.transform.position.x, _transformTp.transform.position.y, _transformTp.transform.position.z);
     }
 }
